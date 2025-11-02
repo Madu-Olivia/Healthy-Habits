@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffbe6;
+     font-family:"poppings"  sans-serif;
+}
+
+.container {
+    border-radius: 15px;
+    width: 700px;
+    height: 1350px;
+    background-color: white;
+    padding: 40px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#img {
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.prep {
+    background-color: #c7f2b1;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    line-height: 30px;
+
+}
+h1 {font-size: 1.8rem;
+    color: #00796b;
+   margin-top: 15px;
+}
+
+.intro {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.prep h3 {
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.prep ul {
+    list-style: none;
+    padding-left: 0;
+}
+.prep li {
+    color: #333;
+    margin-bottom: 5px;
+}
+.studytime h2 {
+   color: #b029d1;
+   margin-top: 20px;
+   font-size: 1.2rem;
+}
+
+.studytime p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.studytime {
+    background-color: #e6fff2;
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 10px;
+    margin-top: 25px;
+}
+
+/* Large tablets / small desktops */
+@media (max-width: 900px) {
+    .container {
+        width: 90%;
+        padding: 32px;
+        height: auto;
+    }
+
+    #img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .prep,
+    .studytime {
+        padding: 18px;
+    }
+}
+
+/* Tablets / landscape phones */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 28px;
+    }
+
+    #img {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro,
+    .studytime p,
+    .prep li {
+        font-size: 0.97rem;
+    }
+
+    .prep,
+    .studytime {
+        border-radius: 14px;
+        margin: 8px 0;
+    }
+}
+
+/* Phones / small screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 420px;
+        padding: 16px;
+        margin: 16px auto;
+        border-radius: 12px;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+        max-height: 180px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    .intro {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+    }
+
+    .prep,
+    .studytime {
+        padding: 12px;
+        border-radius: 10px;
+        line-height: 1.4;
+    }
+
+    .prep ul {
+        padding-left: 12px;
+    }
+
+    .prep li {
+        margin-bottom: 8px;
+    }
+
+    .studytime h2 {
+        font-size: 1rem;
+    }
+}
