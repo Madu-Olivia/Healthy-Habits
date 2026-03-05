@@ -76,7 +76,7 @@ View the live website here:
 ## 📸 Screenshot
 
 ```
-![Website Screenshot](Study-Habits.png)
+![Healthy Study Habits Website](Study-Habits.png) 
 ```
 
 ---
