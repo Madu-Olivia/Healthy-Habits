@@ -73,14 +73,6 @@ View the live website here:
 
 ---
 
-## 📸 Screenshot
-
-```
-![Healthy Study Habits Website](Study-Habits.png) 
-```
-
----
-
 ## 👩‍💻 Author
 
 **Olivia Madu**
